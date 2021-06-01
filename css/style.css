@@ -336,7 +336,6 @@ button {
 
 .landing-header {
     background-color: transparent;
-    position: absolute;
     left: 0;
     right: 0;
     z-index: 1;
@@ -370,7 +369,7 @@ button {
 }
 
 .landing-header .land-header nav ul.nav li a {
-    color: #fff;
+    color: #222;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1338,4 +1337,18 @@ button {
     .land-rtl h2 {
         font-size: 18px;
     }
+}
+
+.landing-header .land-header nav ul.nav li button {
+    padding: 5px 0;
+    background: transparent;
+    border: none;
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.landing-header .land-header nav ul.nav li button:hover {
+    color: #275c53;
 }
